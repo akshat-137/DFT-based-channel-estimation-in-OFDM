@@ -95,5 +95,7 @@ The results match both theory and practical wireless system design.
 ## Author
 
 Akshat Gupta
+
 3rd-year B.Tech, Electronics & Communication Engineering
+
 JSS Academy of Technical Education, Noida, India
