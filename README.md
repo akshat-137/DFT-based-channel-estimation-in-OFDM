@@ -31,35 +31,39 @@ Tx Bits → QPSK Mod → OFDM Mod → Rayleigh Channel → Add Noise → OFDM De
 
 The DFT-based estimator provides an ~8× reduction in MSE across all SNR values.
 
-SNR (dB)	MSE (LS)	MSE (DFT)
-0	1.003	0.1268
-5	0.3121	0.0408
-10	0.1002	0.01254
-15	0.03124	0.003906
-20	0.009976	0.00131
-25	0.003152	0.0004066
-30	0.001005	0.0001293
+|SNR (dB)|	MSE (LS)  |	MSE (DFT)   |
+|---------|------------|------------|
+|0	    | 1.003	     | 0.1268     |
+|5	    | 0.3121     | 0.0408     |
+|10	    | 0.1002     | 0.01254    |
+|15	    | 0.03124    | 0.003906   |
+|20	    | 0.009976   | 0.00131    |
+|25	    | 0.003152   | 0.0004066  |
+|30	    | 0.001005   | 0.0001293  |
 
 2. BER vs SNR
 
 DFT-based estimation achieves 40–50% lower BER, giving a clear SNR gain.
 
-SNR (dB)	BER (LS)	BER (DFT)
-0	0.3127	0.2334
-5	0.1763	0.1168
-10	0.08097	0.04827
-15	0.03048	0.01815
-20	0.01059	0.005917
-25	0.003116	0.001718
-30	0.001214	0.0007367
+|SNR (dB)|	BER (LS)  |	BER (DFT)   |
+|---------|------------|------------|
+|0	    | 0.3127     | 0.2334     |
+|5	    | 0.1763     | 0.1168     |
+|10	    | 0.08097    | 0.04827    |
+|15	    | 0.03048    | 0.01815    |
+|20	    | 0.01059    | 0.005917   |
+|25	    | 0.003116   | 0.001718   |
+|30	    | 0.001214   | 0.0007367  |
+
+---
 
 ## Plots
 
 Add your images here after uploading:
 
-![Channel Response](images/channel_response.png)
-![MSE Plot](images/mse_plot.png)
-![BER Plot](images/ber_plot.png)
+![Channel Response](channel_response.png)
+![MSE Plot](mse_plot.png)
+![BER Plot](ber_plot.png)
 
 ---
 
